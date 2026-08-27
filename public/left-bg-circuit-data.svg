@@ -1,0 +1,131 @@
+<svg width="400" height="1200" viewBox="0 0 400 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="50%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#0f1628"/>
+    </linearGradient>
+    <pattern id="dots" x="20" y="20" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#00d4ff" opacity="0.3"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  {/* Background Gradient */}
+  <rect width="400" height="1200" fill="url(#bgGradient)"/>
+  
+  {/* Subtle dot pattern */}
+  <rect width="400" height="1200" fill="url(#dots)"/>
+
+  {/* Main Circuit Traces - Top Section */}
+  <g stroke="#00d4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    {/* Vertical lines */}
+    <line x1="50" y1="50" x2="50" y2="150" opacity="0.6"/>
+    <line x1="100" y1="80" x2="100" y2="200"/>
+    <line x1="150" y1="60" x2="150" y2="180"/>
+    <line x1="250" y1="70" x2="250" y2="190"/>
+    <line x1="300" y1="50" x2="300" y2="170"/>
+    <line x1="350" y1="80" x2="350" y2="210"/>
+
+    {/* Horizontal connections */}
+    <path d="M 50 100 L 100 100 L 100 140 L 150 140" opacity="0.7"/>
+    <path d="M 100 160 L 200 160 L 200 100" opacity="0.6"/>
+    <path d="M 250 120 L 300 120 L 300 100" opacity="0.7"/>
+    <path d="M 150 180 L 250 180 L 250 150"/>
+  </g>
+
+  {/* Node Points - Top Section */}
+  <g fill="#00d4ff" filter="url(#glow)">
+    <circle cx="50" cy="50" r="3.5" opacity="0.8"/>
+    <circle cx="100" cy="100" r="3.5"/>
+    <circle cx="150" cy="60" r="3.5" opacity="0.7"/>
+    <circle cx="200" cy="100" r="3.5" opacity="0.9"/>
+    <circle cx="250" cy="120" r="3.5"/>
+    <circle cx="300" cy="100" r="3.5" opacity="0.8"/>
+    <circle cx="350" cy="80" r="3.5" opacity="0.7"/>
+  </g>
+
+  {/* Component Boxes - Middle Section */}
+  <g stroke="#00bfff" stroke-width="1.5" fill="none" opacity="0.5">
+    <rect x="30" y="250" width="60" height="45" rx="6"/>
+    <rect x="120" y="280" width="80" height="50" rx="6"/>
+    <rect x="240" y="270" width="70" height="55" rx="6"/>
+    <rect x="330" y="250" width="60" height="50" rx="6"/>
+  </g>
+
+  {/* Connecting Traces - Middle Section */}
+  <g stroke="#00d4ff" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4">
+    <path d="M 90 270 L 120 300"/>
+    <path d="M 200 310 L 240 300"/>
+    <path d="M 310 305 L 330 285"/>
+  </g>
+
+  {/* Data Flow Visualization - Lower Section */}
+  <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
+    {/* Vertical data lines */}
+    <line x1="60" y1="400" x2="60" y2="550"/>
+    <line x1="140" y1="420" x2="140" y2="570"/>
+    <line x1="220" y1="410" x2="220" y2="560"/>
+    <line x1="300" y1="400" x2="300" y2="570"/>
+    <line x1="360" y1="430" x2="360" y2="580"/>
+  </g>
+
+  {/* Data Nodes */}
+  <g fill="#00ff88" opacity="0.7">
+    <circle cx="60" cy="400" r="2.5"/>
+    <circle cx="60" cy="475" r="2.5"/>
+    <circle cx="60" cy="550" r="2.5"/>
+    <circle cx="140" cy="420" r="2.5"/>
+    <circle cx="140" cy="495" r="2.5"/>
+    <circle cx="140" cy="570" r="2.5"/>
+    <circle cx="220" cy="410" r="2.5"/>
+    <circle cx="220" cy="485" r="2.5"/>
+    <circle cx="220" cy="560" r="2.5"/>
+    <circle cx="300" cy="400" r="2.5"/>
+    <circle cx="300" cy="485" r="2.5"/>
+    <circle cx="300" cy="570" r="2.5"/>
+    <circle cx="360" cy="430" r="2.5"/>
+    <circle cx="360" cy="505" r="2.5"/>
+    <circle cx="360" cy="580" r="2.5"/>
+  </g>
+
+  {/* Bottom Section - Advanced Circuit Pattern */}
+  <g stroke="#ff00ff" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M 20 700 Q 100 750 180 700 T 340 700" stroke-dasharray="6,3"/>
+    <path d="M 20 750 Q 100 800 180 750 T 340 750" stroke-dasharray="6,3"/>
+    <path d="M 20 800 Q 100 850 180 800 T 340 800" stroke-dasharray="6,3"/>
+  </g>
+
+  {/* Signal Waves */}
+  <g stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M 50 900 Q 70 880 90 900 T 130 900 T 170 900 T 210 900"/>
+    <path d="M 50 950 Q 70 930 90 950 T 130 950 T 170 950 T 210 950"/>
+    <path d="M 250 900 Q 270 880 290 900 T 330 900 T 370 900 T 410 900"/>
+  </g>
+
+  {/* Hexagon Pattern - Tech accent */}
+  <g fill="none" stroke="#00ff88" stroke-width="1" opacity="0.3">
+    <polygon points="100,1000 115,1008 115,1024 100,1032 85,1024 85,1008"/>
+    <polygon points="250,1050 265,1058 265,1074 250,1082 235,1074 235,1058"/>
+    <polygon points="320,1000 335,1008 335,1024 320,1032 305,1024 305,1008"/>
+  </g>
+
+  {/* Glowing accents - top right */}
+  <circle cx="360" cy="80" r="30" fill="#00d4ff" opacity="0.05"/>
+  <circle cx="360" cy="80" r="20" fill="#00d4ff" opacity="0.08"/>
+  
+  {/* Glowing accents - bottom left */}
+  <circle cx="40" cy="1100" r="35" fill="#00ff88" opacity="0.04"/>
+  <circle cx="40" cy="1100" r="22" fill="#00ff88" opacity="0.07"/>
+
+  {/* Text label */}
+  <text x="200" y="1170" font-size="12" fill="#00d4ff" font-family="monospace" opacity="0.6" text-anchor="middle">
+    circuit | data | flow
+  </text>
+</svg>

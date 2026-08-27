@@ -1,0 +1,36 @@
+{
+  "frontend": [
+    { "name": "React", "level": "Advanced", "icon": "ri-reactjs-line" },
+    { "name": "Next.js", "level": "Advanced", "icon": "ri-nextjs-line" },
+    { "name": "TypeScript", "level": "Advanced", "icon": "ri-typescript-line" },
+    { "name": "Tailwind CSS", "level": "Advanced", "icon": "ri-tailwindcss-line" },
+    { "name": "JavaScript", "level": "Advanced", "icon": "ri-javascript-line" }
+  ],
+  "backend": [
+    { "name": "Node.js", "level": "Intermediate", "icon": "ri-nodejs-line" },
+    { "name": "Python", "level": "Advanced", "icon": "ri-python-line" },
+    { "name": "MongoDB", "level": "Intermediate", "icon": "ri-database-2-line" },
+    { "name": "Firebase", "level": "Intermediate", "icon": "ri-cloudy-line" },
+    { "name": "REST APIs", "level": "Intermediate", "icon": "ri-api-cloud-line" }
+  ],
+  "hardware": [
+    { "name": "Embedded Systems", "level": "Advanced", "icon": "ri-cpu-line" },
+    { "name": "IoT", "level": "Advanced", "icon": "ri-wireless-line" },
+    { "name": "Arduino/Raspberry Pi", "level": "Advanced", "icon": "ri-circuit-line" },
+    { "name": "PCB Design", "level": "Intermediate", "icon": "ri-function-line" },
+    { "name": "Firmware Development", "level": "Advanced", "icon": "ri-code-line" }
+  ],
+  "datascience": [
+    { "name": "Python", "level": "Advanced", "icon": "ri-python-line" },
+    { "name": "Pandas", "level": "Intermediate", "icon": "ri-table-line" },
+    { "name": "Data Visualization", "level": "Intermediate", "icon": "ri-bar-chart-line" },
+    { "name": "Statistical Analysis", "level": "Intermediate", "icon": "ri-function-line" },
+    { "name": "Machine Learning", "level": "Intermediate", "icon": "ri-brain-line" }
+  ],
+  "tools": [
+    { "name": "Git", "level": "Advanced", "icon": "ri-git-branch-line" },
+    { "name": "VS Code", "level": "Advanced", "icon": "ri-code-s-slash-line" },
+    { "name": "Docker", "level": "Intermediate", "icon": "ri-git-repository-line" },
+    { "name": "GitHub", "level": "Advanced", "icon": "ri-github-line" }
+  ]
+}

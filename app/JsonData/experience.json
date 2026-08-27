@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Restk Solutions Ltd (Remote, Part Time)",
+    "duration": "March 2025 - Present",
+    "description": "Designed and optimized mobile and web-based applications in collaboration with software engineers and data scientists. Translated user requirements into wireframes and interactive prototypes, conducted usability testing, and implemented design improvements to boost product adoption.",
+    "highlights": ["React", "JavaScript", "UX/UI Prototyping", "Mobile & Web Apps", "Usability Testing"]
+  },
+  {
+    "id": 2,
+    "title": "Hardware Engineer Intern",
+    "company": "Kenzim College, Harare",
+    "duration": "August 2022 - August 2023",
+    "description": "Managed computer lab workstations, printers, projectors and smart boards. Responded to daily IT tickets and provided technical support to teachers and students. Assisted in teaching basic computer skills to learners.",
+    "highlights": ["Lab Management", "IT Support", "Hardware Troubleshooting", "Technical Instruction"]
+  },
+  {
+    "id": 3,
+    "title": "Data Capturer",
+    "company": "ZIMSEC / National High School Registration",
+    "duration": "January 2019 - 2020",
+    "description": "Managed national high school registration processes, maintained student databases, checked and corrected registration errors, and prepared internal examinations for printing and distribution.",
+    "highlights": ["Data Management", "Quality Assurance", "Examination Preparation"]
+  },
+  {
+    "id": 4,
+    "title": "Hardware Engineer Intern",
+    "company": "Chitungwiza Central Hospital, Chitungwiza",
+    "duration": "August 2018 - January 2019",
+    "description": "Administered SAP modules for patient management, debtors, and materials. Oversaw hardware maintenance and repairs, liaised with ISP teams for connectivity issues, and trained hospital staff on SAP usage.",
+    "highlights": ["SAP Administration", "Hardware Maintenance", "Network Troubleshooting", "Staff Training"]
+  },
+  {
+    "id": 5,
+    "title": "Founder",
+    "company": "Burts Consortium Zimbabwe",
+    "duration": "March 2020 - Present",
+    "description": "Established an online platform to connect and empower artists during the COVID-19 pandemic, organized virtual sessions, launched the Burts Gazette, and developed strategies to support artists financially and creatively.",
+    "highlights": ["Community Building", "Project Management", "Content Production", "Outreach"]
+  },
+  {
+    "id": 6,
+    "title": "Robotics Mentor",
+    "company": "Girls in STEM / University of Zimbabwe",
+    "duration": "February 2025 - Present",
+    "description": "Mentored primary and high school students in robotics and STEM projects, guided teams for competitions including the World Robotics Olympiad, and promoted hands-on learning.",
+    "highlights": ["Mentoring", "Robotics", "STEM Education", "Competition Coaching"]
+  }
+]

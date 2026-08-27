@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 260" width="900" height="260" fill="none">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!--
+      ═══════════════════════════════════════════════════
+      CLIP PATH — keeps your photo inside the inner square
+      Must match the inner rect: x=384 y=64 w=132 h=132
+      ═══════════════════════════════════════════════════
+    -->
+    <clipPath id="chipClip">
+      <rect x="384" y="64" width="132" height="132" rx="1"/>
+    </clipPath>
+  </defs>
+
+  <!--
+    ═══════════════════════════════════════════════════════════
+    YOUR PROFILE PICTURE GOES HERE
+    ═══════════════════════════════════════════════════════════
+    Replace "your-photo.jpg" with your actual image filename.
+    The image MUST be in the same folder as this SVG file.
+
+    x="384"  → same x as inner square
+    y="64"   → same y as inner square
+    width="132"  height="132" → fills the square exactly
+    clip-path="url(#chipClip)" → crops it inside the square
+    preserveAspectRatio="xMidYMid slice" → fills without stretching
+    ═══════════════════════════════════════════════════════════
+  -->
+  <image
+    href="your-photo.jpg"
+    x="384"
+    y="64"
+    width="132"
+    height="132"
+    clip-path="url(#chipClip)"
+    preserveAspectRatio="xMidYMid slice"
+  />
+
+  <!-- CHIP GRAPHICS (unchanged) -->
+  <g filter="url(#glow)" stroke="#00e5ff" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- CHIP square -->
+    <rect x="370" y="50" width="160" height="160" rx="2" stroke-width="5"/>
+
+    <!-- top notch -->
+    <rect x="418" y="36" width="64" height="18" rx="1" stroke-width="3.5"/>
+
+    <!-- inner square frame drawn ON TOP of the photo -->
+    <rect x="384" y="64" width="132" height="132" rx="1" stroke-width="2.5"/>
+
+    <!-- TOP PINS -->
+    <g stroke-width="5" stroke-linecap="butt">
+      <line x1="382" y1="50" x2="382" y2="36"/>
+      <line x1="394" y1="50" x2="394" y2="36"/>
+      <line x1="406" y1="50" x2="406" y2="36"/>
+      <line x1="484" y1="50" x2="484" y2="36"/>
+      <line x1="496" y1="50" x2="496" y2="36"/>
+      <line x1="508" y1="50" x2="508" y2="36"/>
+      <line x1="520" y1="50" x2="520" y2="36"/>
+    </g>
+
+    <!-- BOTTOM PINS -->
+    <g stroke-width="4" stroke-linecap="butt">
+      <line x1="378" y1="210" x2="378" y2="224"/>
+      <line x1="388" y1="210" x2="388" y2="224"/>
+      <line x1="398" y1="210" x2="398" y2="224"/>
+      <line x1="408" y1="210" x2="408" y2="224"/>
+      <line x1="418" y1="210" x2="418" y2="224"/>
+      <line x1="428" y1="210" x2="428" y2="224"/>
+      <line x1="438" y1="210" x2="438" y2="224"/>
+      <line x1="448" y1="210" x2="448" y2="224"/>
+      <line x1="458" y1="210" x2="458" y2="224"/>
+      <line x1="468" y1="210" x2="468" y2="224"/>
+      <line x1="478" y1="210" x2="478" y2="224"/>
+      <line x1="488" y1="210" x2="488" y2="224"/>
+      <line x1="498" y1="210" x2="498" y2="224"/>
+      <line x1="508" y1="210" x2="508" y2="224"/>
+      <line x1="518" y1="210" x2="518" y2="224"/>
+    </g>
+
+    <!-- LEFT PINS -->
+    <g stroke-width="4" stroke-linecap="butt">
+      <line x1="370" y1="68"  x2="356" y2="68"/>
+      <line x1="370" y1="80"  x2="356" y2="80"/>
+      <line x1="370" y1="92"  x2="356" y2="92"/>
+      <line x1="370" y1="104" x2="356" y2="104"/>
+      <line x1="370" y1="116" x2="356" y2="116"/>
+      <line x1="370" y1="128" x2="356" y2="128"/>
+      <line x1="370" y1="140" x2="356" y2="140"/>
+      <line x1="370" y1="152" x2="356" y2="152"/>
+      <line x1="370" y1="164" x2="356" y2="164"/>
+      <line x1="370" y1="176" x2="356" y2="176"/>
+      <line x1="370" y1="188" x2="356" y2="188"/>
+      <line x1="370" y1="200" x2="356" y2="200"/>
+    </g>
+
+    <!-- RIGHT PINS -->
+    <g stroke-width="4" stroke-linecap="butt">
+      <line x1="530" y1="68"  x2="544" y2="68"/>
+      <line x1="530" y1="80"  x2="544" y2="80"/>
+      <line x1="530" y1="92"  x2="544" y2="92"/>
+      <line x1="530" y1="104" x2="544" y2="104"/>
+      <line x1="530" y1="116" x2="544" y2="116"/>
+      <line x1="530" y1="128" x2="544" y2="128"/>
+      <line x1="530" y1="140" x2="544" y2="140"/>
+      <line x1="530" y1="152" x2="544" y2="152"/>
+      <line x1="530" y1="164" x2="544" y2="164"/>
+      <line x1="530" y1="176" x2="544" y2="176"/>
+      <line x1="530" y1="188" x2="544" y2="188"/>
+      <line x1="530" y1="200" x2="544" y2="200"/>
+    </g>
+
+  </g>
+</svg>
